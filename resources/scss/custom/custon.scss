@@ -1,0 +1,109 @@
+// Popover Plugins
+.popover, .popover-title, .popover-content {
+	color:  red !important;
+	text-decoration:  red !important;
+    background-color: #3a3939 !important;
+}
+.popover-arrow:after {
+    left: 1px;
+    border-width: .5rem .5rem .5rem 0;
+    border-right-color: #3a3939 !important;
+}
+
+// Background Payment Links
+.bg-copy{    
+    background:url('../images/coloured-patterns.png') !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+    background-position: center center;
+}
+@media (min-width:1200px){
+    .bg-copy{
+        height:100vh !important;
+    }
+}
+.bg-copy:before{
+    content:"" !important;
+    position:absolute !important;
+    width:300px !important;
+    height:300px !important;
+    border-radius:50% !important;
+}
+
+// Size Modales
+.modal-md {
+    max-width: 400px !important;
+}
+
+// Icon or Texto in Input
+.content-copy-input span{
+    position:absolute !important;
+    z-index:10 !important;
+    font-size:10px !important;
+    line-height:38px !important;
+    left:85% !important;
+    top:0% !important;
+}
+.content-copy-input-webhooks span{
+    position:absolute !important;
+    z-index:10 !important;
+    font-size:10px !important;
+    line-height:38px !important;
+    top:0% !important;
+
+    @media (min-width: 320px){
+        left:60% !important;
+    }
+
+    @media (min-width: 375px){
+        left:70% !important;
+    }
+
+    @media (min-width: 425px){
+        left:75% !important;
+    }
+
+    @media (min-width: 768px){
+        left:80% !important;
+    }
+    
+    @media (min-width: 1200px){
+        left:75% !important;
+    }
+}
+
+
+// Input Search Size
+.app-search .form-control{
+    width: 120% !important;
+}
+
+/* Input File */
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0.125rem 1rem;
+}
+
+.iborrainputfile {
+    font-size:14px; 
+    font-weight:normal;
+}
+
+.inputfile-2 + label {
+    color: #fff;
+    border: 1px solid;
+}
